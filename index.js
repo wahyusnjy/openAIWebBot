@@ -52,4 +52,4 @@ io.on('connection', function(socket){
     });
 });
 
-server.listen(1223, () => console.log("Server sudah berjalan di port 1223"));
+server.listen(2312, () => console.log("Server sudah berjalan di port 2312"));

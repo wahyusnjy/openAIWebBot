@@ -65,6 +65,7 @@
             `;
             messageContainer.appendChild(el);
         }
+        messageContainer.scrollTop = messageContainer.scrollHeight - messageContainer.clientHeight;
     }
 
 })();
